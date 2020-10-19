@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+
+    <script type="text/JavaScript">
+        function myFunction()
+       {
+           var input = document.querySelector('input[name="garments"]:checked').value;
+           var div = document.getElementById('divID');
+           div.innerHTML = div.innerHTML + input+"<br>";
+       }
+       </script>
+</head>
+<body>
+<form action="#" method="post" id="demoForm">
+    <div class="controls option block-1">
+        <div class="col-sm-3 col-md-3 prod-left-text"> 
+            <h3> Garments Type</h3>
+            <p class="subtitle">Please choose your garments.</p>
+        </div>
+
+        <div class="col-sm-9 col-md-9">
+
+            <div class="col-md-3 col-sm-6 col-xs-12 option-value form-group">
+               <label class="rad">
+        <input type="radio" name="garments" value="shirt" id="shirt" onkeypress="myFunction()" >
+                <div><p class="producth6">Shirt<br /><span class="producth7">Rs. 400/-</span><br /><span class="producth8">onwords</span></p>
+                    </div>
+                </label>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 option-value form-group" >
+                <label class="rad">
+                <input type="radio" name="garments" value="trouser" id="trouser" onkeypress="myFunction()">
+                    <div><p class="producth6">Trouser<br /><span class="producth7">Rs. 400/-</span><br /><span class="producth8">onwords</span></p></div>
+                </label>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12 option-value form-group">
+                <label class="rad">
+                    <input type="radio" name="garments" value="Tshirt" id="tshirt" onkeypress="myFunction()">
+                    <div><p class="producth6">T-shirt<br /><span class="producth7">Rs. 500/-</span><br /><span class="producth8">onwords</span></p>
+                    </div>
+                </label>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 option-value form-group">
+                <label class="rad">
+                    <input type="radio" name="garments" value="suit" id="suit" onkeypress="myFunction()">
+                    <div><p class="producth6">Salwar-Suit<br /><span class="producth7">Rs. 675/-</span><br /><span class="producth8">onwords</span></p>
+                    </div>
+                </label>
+            </div>
+            <div class="clearfix"></div>
+            <div style="height:80px;">
+                <center>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="float: none;display: inline-block;">
+
+                    </div>
+                </center> 
+            </div>   
+                 <p><button type="button" value="submit">Get Value of Selected</button></p>
+
+
+        <!-- Div where i want to put the selected radio valur -->
+    <div id="divID"></div>    
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,367 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+@font-face{
+    font-family: 'Open Sans';
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+    font-family: 'Montserrat';
+    src: url(https://fonts.googleapis.com/css?family=Montserrat:900);
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #EFEFEF;
+    overflow-y: overlay;
+    background-position: fixed;
+}
+
+#index {
+    background-size: 100%; 
+    position: fixed;
+}
+
+section #form{
+    padding-bottom: 1366px!important;
+}
+
+.container {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #333087;
+    font-size: 4rem;
+}
+
+h6 {
+    font-weight: bold;
+    color: #404040;
+    padding-top: 0.5rem;
+    line-height: 1.6;
+}
+
+#konten-status-pinjam #konten-permintaan-pinjam p {
+    font-weight: 700;
+}
+
+p {
+    color: #404040;
+    font-weight: normal;
+}
+
+.sidebar .col-lg-2 {
+    padding: 0;
+    position: fixed;
+    visibility: visible;
+}
+
+.sidebar .col-lg-10 {
+    left: 22%;
+    visibility: visible;
+}
+
+.sidebar .col-lg-10 {
+    left: 22%;
+    visibility: visible;
+}
+
+.fa-bars {
+    position: fixed;
+    top:0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    z-index: 2;
+    color: #333087;
+    display: none!important;
+    font-size: 1.8rem;
+    box-shadow: 2px;
+    visibility: hidden;
+}
+
+.fa-bars #ubah_profil {
+    padding-left: 0;
+}
+
+.fa-times {
+    position: fixed;
+    top: 1rem;
+    margin-left: 1rem;
+    z-index: 2;
+    color: #333087;
+    display: none!important;
+    font-size: 1.8rem;
+    visibility: hidden;
+}
+
+.img-thumbnail {
+    object-fit: cover;
+}
+
+.jumbotron {
+    background: none;
+    color: #BEBEBE!important;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-top: 1rem;
+}
+
+.jumbotron img{
+    width: 30%;
+}
+/*Tombol*/
+
+.btn {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#sidebar .btn {
+    text-transform: unset;
+}
+
+.btn-focus {
+    background: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #333087;
+    box-shadow: 0 0 0 0.2rem rgba(51,48,135,.5);
+    text-align: left;
+}
+
+.btn-primary:hover {
+    background-color: #333087;
+    border-color: #333087;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(183, 180, 255, 0.5);
+}
+
+.btn-secondary{
+    background-color: #EFEFEF;
+    color: #707070;
+    border-color: #EFEFEF;
+}
+
+.btn-secondary:hover{
+    background-color: #BEBEBE;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #EFEFEF;
+}
+
+.btn-secondary:focus{
+    box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active {
+    background-color: #9C9C9C;
+    color: #ffffff;
+    border-color: #404040;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+/*Form*/
+
+::placeholder{
+    font-size: 0.8rem;
+}
+
+.form-control {
+    border-color: white;
+    font-size: 0.8rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(51,48,135,.2);
+    border-color: #333087;
+}
+
+.img-thumbnail{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-style: none;
+    padding: 0;
+    vertical-align: 0px;
+
+}
+
+.btn-primary {
+    background-color: #333087;
+    color: #ffffff;
+    border-color: #333087;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3)
+}
+
+figcaption{
+    color: #333087;
+    font-weight: bold;
+    text-align: center;
+}
+
+.badge {
+    text-transform: uppercase;
+    color: white;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+}
+
+.badge-warning {
+    background-color: #EE750B;
+}
+
+.badge-success {
+    background-color: #65B948;
+}
+
+.badge-danger {
+    background-color: #BB2E2E;
+}
+
+.badge-primary {
+    background-color: #333087;
+}
+
+/*Alert*/
+
+.alert {
+    border: none;
+}
+
+.alert-danger {
+    color: white;
+    background-color: #BB2E2E;
+}
+
+.alert-bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0;
+    left: 0;
+    border-radius: 0;
+    text-align: left!important;
+}
+
+.alert-success{
+    color: white;
+    background-color: #65B948;
+}
+
+.close {
+    color: white;
+    text-shadow: none;
+    font-weight: none;
+}
+
+button:focus{
+    outline: none;
+}
+/*Table*/
+thead {
+    font-weight: bold;
+}
+
+table .badge {
+    float: right;
+}
+
+th,td {
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 576px) {
+    .col-lg-2{
+        margin-right: 1rem;
+    }
+    #index {
+        background-size: 200%;
+        background-position: fixed;
+    }
+    
+    #sidebar{
+        position: fixed;
+        visibility: hidden;
+    }
+
+    #content{
+        top:2rem;
+        visibility: visible;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .jumbotron img{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .w-50{
+        width: 100%!important;
+    }
+    
+    #index {
+        position: static;
+    }
+    #index .shadow {
+        box-shadow: unset!important;
+    }
+    section #form{
+        padding-bottom: unset!important;
+    }
+
+    .sidebar .col-lg-2 {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        width: 90%;
+        z-index: 1;
+        visibility: hidden;
+    }
+    
+    .container{
+        max-width: unset;
+    }
+
+    .sidebar .col-lg-10 {
+        top: 2rem;
+        left: unset;
+    }
+
+    .sidebar .col-lg-10 {
+        top: 2rem;
+        left: unset;
+    }
+
+    .fa-bars{
+        display: unset!important;
+        width: 100%;
+        background-color: #EFEFEF;
+        visibility: visible;
+    }
+    
+    .fa-times{
+        display: unset!important;
+    }
+}
