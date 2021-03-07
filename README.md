@@ -1,6 +1,6 @@
 # ORCA
 
-ORCA merupakan aplikasi berbasis web untuk peminjaman ruang sidang Universitas. Aplikasi ini tidak menggunakan framework PHP.
+Order Room for Academics merupakan aplikasi berbasis web yang bertujuan untuk mempermudah transaksi peminjaman ruang sidang di Jurusan Informatika, Fakultas Sains dan Matematika. Aplikasi ini tidak menggunakan framework PHP.
 
 ## Fitur
 
